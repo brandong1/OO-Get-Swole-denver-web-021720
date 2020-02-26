@@ -28,9 +28,7 @@ class Lifter
 
   def new_membership
     Membership.new(cost, self, gym)
-  
   # binding.pry
-  
   end
 
 end
