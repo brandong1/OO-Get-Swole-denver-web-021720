@@ -3,7 +3,9 @@
 require_relative '../config/environment.rb'
 
 # test code goes here
-
+Lifter.new("Brandon", 600)
+Lifter.new("Mike", 700)
+Lifter.new("Steve", 850)
 binding.pry
 
 puts "Gains!"
